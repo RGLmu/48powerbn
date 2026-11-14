@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="bn" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>48 POWER — ক্ষমতার ৪৮টি সূত্র | Robert Greene</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Hind Siliguri (Bangla) + Cinzel & Inter (English Accents) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#0A0A0A',
+                        charcoal: '#111111',
+                        surface: '#161616',
+                        borderDark: '#222222',
+                        cream: '#F5F5F0',
+                        muted: '#999999',
+                        crimson: '#B91C1C',
+                        crimsonBright: '#DC2626',
+                        gold: '#D4AF37'
+                    },
+                    fontFamily: {
+                        bangla: ['"Hind Siliguri"', 'sans-serif'],
+                        serifDisplay: ['"Cinzel"', 'serif'],
+                        english: ['"Inter"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0A0A0A;
+            color: #F5F5F0;
+            font-family: 'Hind Siliguri', sans-serif;
+            overflow-x: hidden;
+        }
+        /* Custom Scrollbar matching dark editorial theme */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0A0A0A;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #262626;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #B91C1C;
+        }
+        .law-card {
+            transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .law-card:hover {
+            transform: translateY(-4px);
+            border-color: #B91C1C;
+            box-shadow: 0 12px 30px -10px rgba(185, 28, 28, 0.22);
+        }
+        .modal-backdrop {
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-cream antialiased selection:bg-crimson selection:text-white">
+
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-obsidian/90 backdrop-blur-md border-b border-borderDark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-8 h-8 rounded bg-crimson flex items-center justify-center font-serifDisplay font-bold text-white text-sm tracking-wider shadow-md shadow-crimson/20 group-hover:bg-crimsonBright transition">
+                    48
+                </div>
+                <div class="flex flex-col sm:flex-row sm:items-baseline sm:gap-2">
+                    <span class="font-serifDisplay font-bold tracking-widest text-base sm:text-lg text-cream">48 POWER</span>
+                    <span class="text-xs sm:text-sm text-gold font-medium tracking-wide">— বাংলা সংস্করণ</span>
+                </div>
+            </a>
+
+            <div class="flex items-center gap-2 sm:gap-4">
+                <button id="randomLawBtnTop" onclick="openRandomLaw()" class="px-3 py-1.5 sm:px-4 sm:py-2 rounded-md bg-surface hover:bg-crimson text-cream text-xs sm:text-sm font-medium border border-borderDark hover:border-crimson transition flex items-center gap-2">
+                    <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span>দৈবচয়ন সূত্র</span>
+                </button>
+                <a href="#laws-section" class="hidden md:inline-block text-sm text-muted hover:text-cream transition px-2">
+                    সবগুলো সূত্র
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative border-b border-borderDark overflow-hidden">
+        <!-- Subtle Radial Glow -->
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(185,28,28,0.14),_transparent_65%)] pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface border border-borderDark text-xs uppercase tracking-widest text-gold font-english mb-6">
+                <span>Robert Greene • Classic Strategy Reference</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-cream leading-tight mb-4">
+                ক্ষমতার ৪৮টি সূত্র
+                <span class="block font-serifDisplay text-xl sm:text-3xl text-crimsonBright mt-2 tracking-wider font-semibold">
+                    THE 48 LAWS OF POWER
+                </span>
+            </h1>
+
+            <p class="max-w-2xl mx-auto text-base sm:text-lg text-muted leading-relaxed mt-5 mb-8 font-normal">
+                <span class="text-cream font-medium">Robert Greene</span>-এর কালজয়ী বই অবলম্বনে <span class="text-cream">Power</span>, <span class="text-cream">Strategy</span>, <span class="text-cream">Psychology</span> এবং <span class="text-cream">Human Nature</span>-এর নির্মম ও বাস্তবসম্মত ৪৮টি মূলনীতি। নিজেকে রক্ষা করতে এবং প্রভাব বিস্তার করতে প্রতিটি সূত্র জানুন।
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+                <a href="#laws-section" class="px-6 py-3 rounded-lg bg-crimson hover:bg-crimsonBright text-white font-semibold text-sm sm:text-base transition shadow-lg shadow-crimson/25">
+                    ৪৮টি সূত্র পড়ুন
+                </a>
+                <button onclick="openRandomLaw()" class="px-6 py-3 rounded-lg bg-charcoal hover:bg-surface text-cream border border-borderDark hover:border-gold/60 font-medium text-sm sm:text-base transition flex items-center gap-2">
+                    <span>Random Law দেখুন</span>
+                    <span class="text-gold">→</span>
+                </button>
+            </div>
+
+            <!-- Quick Stats Bar -->
+            <div class="grid grid-cols-3 gap-4 max-w-lg mx-auto mt-12 pt-8 border-t border-borderDark/80 text-center">
+                <div>
+                    <div class="font-serifDisplay text-xl sm:text-2xl font-bold text-cream">48</div>
+                    <div class="text-xs text-muted mt-0.5">অমোঘ সূত্র (Laws)</div>
+                </div>
+                <div>
+                    <div class="font-serifDisplay text-xl sm:text-2xl font-bold text-gold">3,000+</div>
+                    <div class="text-xs text-muted mt-0.5">বছরের ইতিহাস</div>
+                </div>
+                <div>
+                    <div class="font-serifDisplay text-xl sm:text-2xl font-bold text-crimsonBright">100%</div>
+                    <div class="text-xs text-muted mt-0.5">বাস্তব Strategy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search, Filter & View Controls -->
+    <section id="laws-section" class="sticky top-16 z-30 bg-obsidian/95 backdrop-blur-md border-b border-borderDark py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            
+            <!-- Top Row: Search Input + View Toggle -->
+            <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between">
+                <div class="relative flex-1 max-w-xl">
+                    <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                        <svg class="h-4 w-4 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="সূত্র নম্বর বা শব্দ খুঁজুন (যেমন: Law 01, Master, Reputation, শত্রু, কৌশল)..." 
+                        class="w-full pl-10 pr-10 py-2.5 bg-charcoal border border-borderDark rounded-lg text-sm text-cream placeholder-muted focus:outline-none focus:border-crimson transition"
+                    >
+                    <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-muted hover:text-cream">
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- View Toggle & Counter -->
+                <div class="flex items-center justify-between sm:justify-end gap-3">
+                    <span id="resultCount" class="text-xs sm:text-sm text-muted font-medium">
+                        দেখানো হচ্ছে: <span class="text-cream font-semibold">৪৮</span> টি সূত্র
+                    </span>
+
+                    <div class="inline-flex rounded-lg bg-charcoal p-1 border border-borderDark">
+                        <button id="gridViewBtn" onclick="setViewMode('grid')" class="px-2.5 py-1.5 rounded text-xs font-medium bg-crimson text-white transition flex items-center gap-1.5" title="Grid View">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+                            </svg>
+                            <span>Grid</span>
+                        </button>
+                        <button id="listViewBtn" onclick="setViewMode('list')" class="px-2.5 py-1.5 rounded text-xs font-medium text-muted hover:text-cream transition flex items-center gap-1.5" title="List View">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                            <span>List</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar" id="categoryFilters">
+                <button onclick="setCategory('all')" data-cat="all" class="filter-pill active whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-crimson text-white border border-crimson transition">
+                    সবগুলো (All 48)
+                </button>
+                <button onclick="setCategory('strategy')" data-cat="strategy" class="filter-pill whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-charcoal text-muted hover:text-cream border border-borderDark transition">
+                    কৌশল (Strategy)
+                </button>
+                <button onclick="setCategory('psychology')" data-cat="psychology" class="filter-pill whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-charcoal text-muted hover:text-cream border border-borderDark transition">
+                    মনস্তত্ত্ব (Psychology)
+                </button>
+                <button onclick="setCategory('leadership')" data-cat="leadership" class="filter-pill whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-charcoal text-muted hover:text-cream border border-borderDark transition">
+                    নেতৃত্ব (Leadership)
+                </button>
+                <button onclick="setCategory('defense')" data-cat="defense" class="filter-pill whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-charcoal text-muted hover:text-cream border border-borderDark transition">
+                    আত্মরক্ষা (Self-Defense)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Laws Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <!-- Empty State -->
+        <div id="emptyState" class="hidden text-center py-20 bg-charcoal rounded-xl border border-borderDark">
+            <p class="text-lg text-cream font-medium mb-2">দুঃখিত, কোনো সূত্র খুঁজে পাওয়া যায়নি।</p>
+            <p class="text-sm text-muted mb-5">অন্য কোনো বাংলা শব্দ বা ইংরেজি keyword দিয়ে চেষ্টা করুন।</p>
+            <button onclick="resetAllFilters()" class="px-4 py-2 rounded-lg bg-crimson text-white text-sm font-medium hover:bg-crimsonBright transition">
+                সব ফিল্টার রিসেট করুন
+            </button>
+        </div>
+
+        <!-- Laws Grid/List -->
+        <div id="lawsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- Populated dynamically via JS -->
+        </div>
+    </main>
+
+    <!-- Interactive Law Detail Modal -->
+    <div id="lawModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-black/80 modal-backdrop" onclick="closeModalOnBackdrop(event)">
+        <div class="bg-charcoal border border-borderDark rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative animate-fadeIn">
+            
+            <!-- Modal Header -->
+            <div class="sticky top-0 bg-charcoal/95 backdrop-blur border-b border-borderDark px-6 py-4 flex items-center justify-between z-10">
+                <div class="flex items-center gap-3">
+                    <span id="modalLawBadge" class="px-2.5 py-1 rounded bg-crimson/20 border border-crimson/40 text-crimsonBright font-serifDisplay font-bold text-xs tracking-widest">
+                        LAW 01
+                    </span>
+                    <span id="modalCategoryBadge" class="text-xs text-gold font-medium px-2 py-0.5 rounded bg-surface border border-borderDark">
+                        Strategy
+                    </span>
+                </div>
+                <button onclick="closeModal()" class="p-1.5 rounded-lg text-muted hover:text-cream hover:bg-surface transition" aria-label="Close Modal">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="p-6 sm:p-8 space-y-6">
+                <div>
+                    <h2 id="modalTitleBn" class="text-2xl sm:text-3xl font-bold text-cream leading-snug">
+                        <!-- Bangla Title -->
+                    </h2>
+                    <p id="modalTitleEn" class="font-serifDisplay text-sm sm:text-base text-gold/90 mt-2 tracking-wide">
+                        <!-- English Original Title -->
+                    </p>
+                </div>
+
+                <!-- Core Principle -->
+                <div class="bg-surface rounded-lg p-5 border border-borderDark">
+                    <h3 class="text-xs uppercase tracking-widest text-crimsonBright font-semibold mb-2 flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-crimsonBright"></span>
+                        মূল নীতি (Core Principle)
+                    </h3>
+                    <p id="modalPrinciple" class="text-cream/95 text-base leading-relaxed">
+                        <!-- Principle text -->
+                    </p>
+                </div>
+
+                <!-- Practical Strategy -->
+                <div class="space-y-2">
+                    <h3 class="text-xs uppercase tracking-widest text-gold font-semibold flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
+                        বাস্তব প্রয়োগ (Practical Strategy)
+                    </h3>
+                    <p id="modalApplication" class="text-muted text-base leading-relaxed">
+                        <!-- Application text -->
+                    </p>
+                </div>
+
+                <!-- Caution / Reversal -->
+                <div class="bg-obsidian/80 rounded-lg p-4 border-l-2 border-crimson">
+                    <h3 class="text-xs uppercase tracking-widest text-muted font-semibold mb-1">
+                        সতর্কতা ও ব্যতিক্রম (Caution & Reversal)
+                    </h3>
+                    <p id="modalCaution" class="text-sm text-cream/85 leading-relaxed">
+                        <!-- Caution text -->
+                    </p>
+                </div>
+            </div>
+
+            <!-- Modal Footer Navigation -->
+            <div class="sticky bottom-0 bg-charcoal border-t border-borderDark px-6 py-4 flex items-center justify-between">
+                <button id="prevLawBtn" onclick="navigateModal(-1)" class="px-4 py-2 rounded-lg bg-surface hover:bg-borderDark text-cream text-sm font-medium border border-borderDark transition flex items-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed">
+                    <span>←</span>
+                    <span>পূর্ববর্তী সূত্র</span>
+                </button>
+                <span id="modalProgressText" class="font-serifDisplay text-xs text-muted tracking-widest">
+                    1 / 48
+                </span>
+                <button id="nextLawBtn" onclick="navigateModal(1)" class="px-4 py-2 rounded-lg bg-crimson hover:bg-crimsonBright text-white text-sm font-medium transition flex items-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed">
+                    <span>পরবর্তী সূত্র</span>
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-borderDark bg-charcoal mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-center sm:text-left">
+                <div class="font-serifDisplay font-bold text-cream tracking-wider text-base">
+                    48 POWER <span class="text-gold font-bangla text-sm font-normal">— বাংলা সংস্করণ</span>
+                </div>
+                <p class="text-xs text-muted mt-1">
+                    Inspired by Robert Greene's <span class="text-cream/80 italic">"The 48 Laws of Power"</span>. Designed for strategic study & self-defense.
+                </p>
+            </div>
+
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-4 py-2 rounded-lg bg-surface hover:bg-crimson text-cream text-xs font-medium border border-borderDark hover:border-crimson transition flex items-center gap-2">
+                <span>উপরে ফিরে যান (Back to Top)</span>
+                <span>↑</span>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Complete 48 Laws Dataset & Application Logic -->
+    <script>
+        const lawsData = [
+            {
+                id: 1,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "কখনোই Master-কে ছাপিয়ে যাবেন না",
+                titleEn: "Never Outshine the Master",
+                summary: "আপনার উপরে থাকা ব্যক্তিদের সবসময় নিরাপদ ও শ্রেষ্ঠ অনুভব করান। নিজের প্রতিভা অতিরিক্ত প্রদর্শন করে তাদের মনে ভয় বা ঈর্ষা জাগাবেন না।",
+                principle: "যারা ক্ষমতায় আছেন, তারা সবসময় তাদের অবস্থানে নিরাপদ থাকতে চান। আপনি যদি নিজের মেধা বা দক্ষতা দিয়ে আপনার বস বা Master-কে ছাপিয়ে যান, তবে তারা প্রশংসা করার বদলে আপনাকে হুমকি হিসেবে দেখবে এবং সরিয়ে দেওয়ার পথ খুঁজবে।",
+                application: "আপনার সুপিরিয়রদের সামনে নিজের বুদ্ধিমত্তা সংযত রাখুন। তাদের পরামর্শ চান এবং আপনার সাফল্যের কৃতিত্ব কৌশলে তাদের দিন, যাতে তারা নিজেদের আরও উদার ও বুদ্ধিমান মনে করেন।",
+                caution: "যদি আপনার Master দুর্বল ও পতনশীল হন, তবে তার সাথে ডুবে যাবেন না। নিষ্ঠুরভাবে সঠিক সময়ে নতুন এবং শক্তিশালী Master খুঁজে নিন।"
+            },
+            {
+                id: 2,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "বন্ধুদের ওপর অতিরিক্ত বিশ্বাস রাখবেন না, শত্রুদের ব্যবহার করতে শিখুন",
+                titleEn: "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
+                summary: "বন্ধুরা ঈর্ষান্বিত হয়ে দ্রুত বিশ্বাসঘাতকতা করতে পারে। কিন্তু একজন প্রাক্তন শত্রু নিজেকে প্রমাণ করার জন্য বন্ধুর চেয়েও বেশি অনুগত থাকে।",
+                principle: "বন্ধুরা আপনার সাফল্যে সহজেই ঈর্ষান্বিত হতে পারে এবং তারা সবসময় বিশেষ সুবিধা আশা করে। অন্যদিকে, একজন প্রাক্তন শত্রুকে আপনি যদি ক্ষমা করে কাজে লাগান, তবে তার হারানোর কিছু থাকে না—সে নিজের বিশ্বস্ততা প্রমাণে প্রাণপণ চেষ্টা করবে।",
+                application: "কাজের ক্ষেত্রে আবেগ বা বন্ধুত্বের চেয়ে যোগ্যতা ও স্বার্থকে প্রাধান্য দিন। অতীতে আপনার বিরোধী ছিল এমন দক্ষ ব্যক্তিদের কাছে টেনে নিন; তারাই আপনার সবচেয়ে বিশ্বস্ত মিত্র হয়ে উঠবে।",
+                caution: "বন্ধুত্ব বজায় রাখুন, কিন্তু কাজের জায়গায় সবসময় পেশাদার দূরত্ব এবং স্পষ্ট সীমারেখা রাখুন।"
+            },
+            {
+                id: 3,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "আপনার Intention গোপন রাখুন",
+                titleEn: "Conceal Your Intentions",
+                summary: "মানুষকে কখনোই বুঝতে দেবেন না আপনি আসলে কী করতে যাচ্ছেন। তারা আপনার উদ্দেশ্য না জানলে কোনো প্রতিরোধ গড়ে তুলতে পারবে না।",
+                principle: "মানুষ স্বভাবতই অনুমান করতে ভালোবাসে। আপনি যদি আপনার আসল পরিকল্পনা বা Intention গোপন রাখেন এবং তাদের ভুল পথে পরিচালিত করেন, তবে তারা অন্ধকারে থাকবে এবং আপনার ফাঁদে পা দেবে।",
+                application: "নিজের আসল লক্ষ্য আড়াল করতে ধোঁয়াশা (Smoke Screen) তৈরি করুন। মানুষের সামনে এমন ভান করুন যেন আপনি ভিন্ন কিছু চাইছেন, যাতে তারা ভুল দিকে প্রস্তুতি নেয়।",
+                caution: "অতিরিক্ত রহস্যময় হয়ে উঠলে মানুষ আপনাকে অবিশ্বাস করতে শুরু করবে। তাই খোলামেলা কথা বলার ভান করে আসল কথাটি গোপন রাখুন।"
+            },
+            {
+                id: 4,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "প্রয়োজনের চেয়ে সবসময় কম কথা বলুন",
+                titleEn: "Always Say Less Than Necessary",
+                summary: "আপনি যত বেশি কথা বলবেন, ততই সাধারণ মনে হবেন এবং ভুল করার ঝুঁকি বাড়বে। ক্ষমতাশালী ব্যক্তিরা কম কথা বলে অন্যদের ভীত ও কৌতূহলী রাখেন।",
+                principle: "কথা একবার মুখ থেকে বেরিয়ে গেলে তা আর ফিরিয়ে নেওয়া যায় না। কম কথা বললে আপনার কথায় ওজন বাড়ে এবং মানুষ আপনার নীরবতাকে গভীর প্রজ্ঞা হিসেবে ধরে নেয়।",
+                application: "আলোচনায় অস্পষ্ট ও সংক্ষিপ্ত উত্তর দিন। অন্যদের বেশি কথা বলতে দিন—তারা যত বেশি বলবে, ততই নিজেদের দুর্বলতা ও পরিকল্পনা প্রকাশ করে ফেলবে।",
+                caution: "বসের সামনে বা জবাবদিহিতার জায়গায় অতিরিক্ত নীরবতা সন্দেহ তৈরি করতে পারে; সেখানে সংক্ষিপ্ত কিন্তু আত্মবিশ্বাসী উত্তর দিন।"
+            },
+            {
+                id: 5,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "Reputation-এর ওপর অনেক কিছু নির্ভর করে — জীবন দিয়ে তা রক্ষা করুন",
+                titleEn: "So Much Depends on Reputation — Guard It with Your Life",
+                summary: "আপনার Reputation হলো ক্ষমতার ভিত্তি। কেবল সুনামের জোরেই আপনি যুদ্ধ না করে জয়ী হতে পারেন, কিন্তু একবার সুনাম নষ্ট হলে আপনি অরক্ষিত হয়ে পড়বেন।",
+                principle: "সামাজিক ও পেশাদার জগতে মানুষ আপনাকে আপনার কাজের চেয়ে আপনার Reputation দিয়েই বিচার করে। একটি শক্তিশালী সুনাম আপনার চারপাশে অদৃশ্য বর্ম তৈরি করে।",
+                application: "নিজের জন্য একটি স্বতন্ত্র ও ইতিবাচক পরিচিতি (যেমন: সততা, দক্ষতা বা কঠোরতা) গড়ে তুলুন এবং যেকোনো মূল্যে তা রক্ষা করুন। প্রতিপক্ষকে আক্রমণ করতে হলে তার Reputation-এ আঘাত হানুন।",
+                caution: "অন্যের সুনাম নষ্ট করতে গিয়ে নিজের ভাবমূর্তি যেন নোংরা না হয়, সেদিকে কৌশলী থাকুন।"
+            },
+            {
+                id: 6,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "যেকোনো মূল্যে Attention আকর্ষণ করুন",
+                titleEn: "Court Attention at All Costs",
+                summary: "সবকিছুই দৃশ্যমানতা দিয়ে বিচার করা হয়। যা চোখে পড়ে না, তার কোনো মূল্য নেই। ভিড়ের মাঝে হারিয়ে না গিয়ে নিজেকে আলাদাভাবে উপস্থাপন করুন।",
+                principle: "পৃথিবীতে নীরব বা অদৃশ্য থাকার অর্থ হলো নিজেকে বাতিল করে দেওয়া। বড় কোনো নাম বা রহস্যময় ইমেজের সাথে নিজেকে যুক্ত করে মানুষের আলোচনার কেন্দ্রবিন্দুতে থাকুন।",
+                application: "নিজের উপস্থিতি, পোশাক, বাচনভঙ্গি বা কাজের ধরনে এমন কিছু রাখুন যা আপনাকে অন্য সবার চেয়ে আলাদা করে তোলে। বিতর্ক বা কৌতূহল তৈরি করতে ভয় পাবেন না।",
+                caution: "সস্তা জনপ্রিয়তা বা নেতিবাচক আলোচনা যেন আপনার দীর্ঘমেয়াদী Reputation নষ্ট না করে, সেদিকে খেয়াল রাখুন।"
+            },
+            {
+                id: 7,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "অন্যদের দিয়ে কাজ করিয়ে নিন, কিন্তু Credit নিজে নিন",
+                titleEn: "Get Others to Do the Work for You, but Always Take the Credit",
+                summary: "নিজের সময় ও শ্রম বাঁচাতে অন্যের মেধা ও পরিশ্রম ব্যবহার করুন। চূড়ান্ত সাফল্যের Credit নিজের নামে রাখলে আপনাকে অসাধারণ দক্ষ মনে হবে।",
+                principle: "ক্ষমতার জগতে যারা পরিশ্রম করে তারা পেছনে পড়ে থাকে, আর যারা সেই কাজের ফল নিজের নামে উপস্থাপন করতে পারে তারাই শীর্ষে পৌঁছায়।",
+                application: "কঠিন ও সময়সাপেক্ষ কাজগুলো দক্ষ সহকর্মী বা অধস্তনদের দিয়ে করিয়ে নিন। সবশেষে মূল পরিকল্পনা ও উপস্থাপনার দায়িত্ব নিজের হাতে রাখুন।",
+                caution: "যখন আপনার অবস্থান পুরোপুরি শক্ত নয়, তখন অন্যের প্রাপ্য কৃতিত্ব কেড়ে নিলে বিদ্রোহ হতে পারে; সঠিক সময়ের অপেক্ষা করুন।"
+            },
+            {
+                id: 8,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "অন্যদের আপনার কাছে আসতে বাধ্য করুন — প্রয়োজনে টোপ ব্যবহার করুন",
+                titleEn: "Make Other People Come to You — Use Bait if Necessary",
+                summary: "আপনি যখন অন্যকে পদক্ষেপ নিতে বাধ্য করেন, তখন নিয়ন্ত্রণ আপনার হাতে থাকে। প্রতিপক্ষকে প্রলোভন দেখিয়ে নিজের তৈরি মাঠে নিয়ে আসুন।",
+                principle: "প্রতিপক্ষের পছন্দের জায়গায় গিয়ে লড়াই করলে আপনি তাদের নিয়মে খেলতে বাধ্য হন। কিন্তু আপনি যদি তাদের নিজের এলাকায় ডেকে আনতে পারেন, তবে আপনিই খেলার নিয়ম নির্ধারণ করবেন।",
+                application: "তাড়াহুড়ো করে কারো পেছনে ছুটবেন না। এমন আকর্ষণীয় প্রস্তাব বা টোপ তৈরি করুন যেন প্রতিপক্ষ নিজেই আপনার কাছে আসতে বাধ্য হয়।",
+                caution: "কখনো কখনো আকস্মিক ও দ্রুত আক্রমণ প্রতিপক্ষকে চমকে দেওয়ার জন্য কার্যকর হতে পারে—পরিস্থিতি বুঝে সিদ্ধান্ত নিন।"
+            },
+            {
+                id: 9,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "তর্কের মাধ্যমে নয়, কাজের মাধ্যমে জয়ী হন",
+                titleEn: "Win Through Your Actions, Never Through Argument",
+                summary: "তর্কে জিতে পাওয়া বিজয় সাময়িক; এটি প্রতিপক্ষের মনে ক্ষোভ তৈরি করে। কোনো কথা না বলে নিজের কাজের ফলাফলের মাধ্যমেই অন্যকে ভুল প্রমাণ করুন।",
+                principle: "তর্ক করলে মানুষের অহংবোধে আঘাত লাগে এবং তারা কখনোই মন থেকে হার মানে না। কিন্তু বাস্তব প্রমাণ ও ফলাফলের সামনে কারো কিছু বলার থাকে না।",
+                application: "যখন কেউ আপনার পরিকল্পনার বিরোধিতা করবে, তখন তর্কে না জড়িয়ে শান্ত থাকুন এবং কাজটি সফলভাবে করে দেখান। ফলাফলই আপনার হয়ে কথা বলবে।",
+                caution: "গুরুত্বপূর্ণ কোনো ভুল বোঝাবুঝি বা আইনি বিষয়ে স্পষ্ট ব্যাখ্যা দেওয়া জরুরি; অযথা বিতর্ক এড়িয়ে চলুন।"
+            },
+            {
+                id: 10,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "সংক্রমণ এড়িয়ে চলুন: অসুখী ও দুর্ভাগা মানুষদের থেকে দূরে থাকুন",
+                titleEn: "Infection: Avoid the Unhappy and Unlucky",
+                summary: "মানুষের দুর্ভাগ্য ও নেতিবাচক মানসিকতা সংক্রামক রোগের মতো। যারা সবসময় সমস্যায় জর্জরিত থাকে, তাদের সাহায্য করতে গিয়ে নিজে ডুবে যাবেন না।",
+                principle: "কিছু মানুষ নিজেরাই নিজেদের জীবনে বিপর্যয় ডেকে আনে। আপনি তাদের বাঁচাতে গেলে তারা আপনাকেও তাদের সাথে নিচে টেনে নামাবে।",
+                application: "যারা সবসময় অভিযোগ করে, হতাশা ছড়ায় এবং বারবার একই ভুল করে—তাদের সঙ্গ ত্যাগ করুন। পরিবর্তে ইতিবাচক, সফল ও ভাগ্যবান মানুষদের সাথে মিশুন।",
+                caution: "কোনো সাময়িক বিপদে পড়া প্রকৃত শুভাকাঙ্ক্ষীকে ত্যাগ করবেন না; বরং যাদের স্বভাবই ধ্বংসাত্মক, তাদের থেকে দূরে থাকুন।"
+            },
+            {
+                id: 11,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "মানুষকে আপনার ওপর নির্ভরশীল করে রাখতে শিখুন",
+                titleEn: "Learn to Keep People Dependent on You",
+                summary: "নিজের স্বাধীনতা বজায় রাখতে চাইলে এমনভাবে কাজ করুন যেন অন্যরা আপনাকে ছাড়া অচল হয়ে পড়ে। আপনাকে যত বেশি প্রয়োজন হবে, আপনার ক্ষমতা তত বাড়বে।",
+                principle: "আপনি যদি অন্যদের সব কিছু শিখিয়ে দেন, তবে একদিন তারা আপনাকে ছাড়াই চলতে পারবে এবং আপনাকে ছুড়ে ফেলবে। তাই এমন কিছু দক্ষতা নিজের কাছে রাখুন যা আর কারো নেই।",
+                application: "প্রতিষ্ঠানে বা সম্পর্কে নিজেকে অপরিহার্য (Indispensable) করে তুলুন। এমন বিশেষ জ্ঞান বা নেটওয়ার্ক নিয়ন্ত্রণ করুন যা ছাড়া অন্যদের কাজ আটকে যাবে।",
+                caution: "অতিরিক্ত নির্ভরশীলতা যেন আপনাকে অতিরিক্ত কাজের চাপে পিষে না ফেলে, সেজন্য সঠিক বণ্টন শিখুন।"
+            },
+            {
+                id: 12,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "প্রতিপক্ষকে নিরস্ত্র করতে বাছাইকৃত সততা ও উদারতা ব্যবহার করুন",
+                titleEn: "Use Selective Honesty and Generosity to Disarm Your Victim",
+                summary: "একটি মাত্র সৎ ও উদার কাজ মানুষের দীর্ঘদিনের সন্দেহ দূর করে দেয়। প্রতিপক্ষের বিশ্বাস অর্জন করার পর আপনি সহজেই নিজের পরিকল্পনা বাস্তবায়ন করতে পারবেন।",
+                principle: "মানুষ সবসময় প্রতারণার ব্যাপারে সতর্ক থাকে। কিন্তু আপনি যদি সঠিক সময়ে একটি নিঃস্বার্থ ও সৎ আচরণ দেখান, তবে তাদের প্রতিরক্ষা ব্যবস্থা ভেঙে পড়বে।",
+                application: "কারো বিশ্বাস অর্জন করতে শুরুতেই ছোট কোনো বিষয়ে পুরোপুরি সৎ ও উদার হোন। এতে তারা আপনাকে নিরীহ ও বিশ্বস্ত ভাবতে শুরু করবে।",
+                caution: "আপনার যদি প্রতারণার ইতিহাস থাকে, তবে হঠাৎ উদারতা দেখালে মানুষ আরও বেশি সন্দিহান হয়ে উঠবে।"
+            },
+            {
+                id: 13,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "সাহায্য চাওয়ার সময় মানুষের Self-Interest-এ আঘাত করুন, দয়া বা কৃতজ্ঞতায় নয়",
+                titleEn: "When Asking for Help, Appeal to People’s Self-Interest, Never to Their Mercy or Gratitude",
+                summary: "মানুষ অতীতের উপকার ভুলে যায়, কিন্তু নিজের বর্তমান লাভের কথা কখনো ভোলে না। কারো সাহায্য চাইলে দেখান এতে তার কী লাভ হবে।",
+                principle: "দয়া বা কৃতজ্ঞতার দোহাই দিলে মানুষ বিরক্ত হয় এবং নিজেকে ছোট মনে করে। কিন্তু আপনি যদি তাদের নিজের স্বার্থ বা লাভের দিকটি তুলে ধরেন, তবে তারা সানন্দে আপনার কাজ করে দেবে।",
+                application: "যেকোনো প্রস্তাব দেওয়ার আগে অপর পক্ষের প্রয়োজন ও স্বার্থ নিয়ে গবেষণা করুন। আপনার প্রস্তাবকে এমনভাবে সাজান যেন মনে হয় এটি তাদেরই উপকারের জন্য।",
+                caution: "কিছু মানুষ সমাজে নিজেকে মহান ও দয়ালু হিসেবে দেখাতে পছন্দ করে; তাদের ক্ষেত্রে দানের সুযোগ করে দিয়ে কাজ আদায় করুন।"
+            },
+            {
+                id: 14,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "বন্ধুর ছদ্মবেশ ধারণ করুন, গুপ্তচরের মতো কাজ করুন",
+                titleEn: "Pose as a Friend, Work as a Spy",
+                summary: "প্রতিপক্ষ সম্পর্কে তথ্য সংগ্রহ করা ক্ষমতার অন্যতম চাবিকাঠি। বন্ধুত্বপূর্ণ আচরণের আড়ালে মানুষের দুর্বলতা ও গোপন পরিকল্পনা জেনে নিন।",
+                principle: "যাকে আপনি চেনেন না, তাকে পরাজিত করা অসম্ভব। সামাজিক আড্ডা ও সাধারণ আলাপচারিতার মাধ্যমে মানুষ অসাবধানতাবশত নিজেদের অনেক গোপন কথা বলে ফেলে।",
+                application: "পরোক্ষ প্রশ্ন করুন, অন্যদের মনের কথা বলতে উৎসাহিত করুন এবং তাদের আবেগ ও দুর্বলতাগুলো নোট করে রাখুন।",
+                caution: "অতিরিক্ত প্রশ্ন করলে মানুষ আপনাকে গুপ্তচর ভেবে এড়িয়ে চলবে; তাই নিজেও কিছু সাধারণ গোপন কথা শেয়ার করার ভান করুন।"
+            },
+            {
+                id: 15,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "শত্রুকে সম্পূর্ণরূপে নির্মূল করুন",
+                titleEn: "Crush Your Enemy Totally",
+                summary: "আগুন পুরোপুরি না নেভালে তা আবার জ্বলে ওঠে। শত্রুকে অর্ধেক পরাজিত করে ছেড়ে দিলে সে আরও ভয়ংকর হয়ে প্রতিশোধ নিতে ফিরে আসবে।",
+                principle: "সব মহান নেতাই জানেন যে বিপজ্জনক শত্রুকে কোনো সুযোগ দেওয়া উচিত নয়। অর্ধেক দয়া দেখালে শত্রুর মনে ঘৃণা জমে থাকে এবং সুযোগ পেলেই সে আঘাত হানে।",
+                application: "কোনো প্রতিযোগিতা বা সংঘাতে জড়ালে প্রতিপক্ষের ঘুরে দাঁড়ানোর সব পথ বন্ধ করে দিন, যাতে তারা আর কখনো আপনার জন্য হুমকি হতে না পারে।",
+                caution: "কখনো কখনো শত্রুকে নির্মূল করার চেয়ে তাদের নিজেদের ভুলেই ধ্বংস হতে দেওয়া বেশি বুদ্ধিমানের কাজ।"
+            },
+            {
+                id: 16,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "সম্মান ও মর্যাদা বাড়াতে অনুপস্থিতি (Absence) ব্যবহার করুন",
+                titleEn: "Use Absence to Increase Respect and Honor",
+                summary: "অতিরিক্ত সহজলভ্যতা মানুষের মূল্য কমিয়ে দেয়। মাঝে মাঝে নিজেকে আড়াল করলে মানুষ আপনার অভাব বোধ করবে এবং আপনাকে বেশি সম্মান দেবে।",
+                principle: "অর্থনীতির নিয়ম অনুযায়ী, যে জিনিসের জোগান কম, তার চাহিদা ও মূল্য তত বেশি। আপনি সবসময় সবার হাতের নাগালে থাকলে মানুষ আপনাকে সাধারণ ভাবতে শুরু করবে।",
+                application: "একটি নির্দিষ্ট পর্যায়ে নিজের অবস্থান তৈরি করার পর কিছুটা দূরত্ব বজায় রাখুন। সব দাওয়াতে যাবেন না এবং সব কথায় প্রতিক্রিয়া দেখাবেন না।",
+                caution: "আপনার অবস্থান শক্ত হওয়ার আগেই যদি আপনি হারিয়ে যান, তবে মানুষ আপনাকে সম্মান করার বদলে ভুলে যাবে।"
+            },
+            {
+                id: 17,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "অন্যদের সবসময় Unpredictable ও আতঙ্কের মধ্যে রাখুন",
+                titleEn: "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+                summary: "মানুষ অভ্যাসের দাস; তারা আপনার পরবর্তী চাল বুঝে ফেললে আপনাকে নিয়ন্ত্রণ করতে পারবে। তাই আপনার আচরণে অপ্রত্যাশিত পরিবর্তন আনুন।",
+                principle: "আপনি যদি সবসময় একই নিয়মে চলেন, তবে প্রতিপক্ষ সহজেই আপনার কৌশল ধরে ফেলবে। কিন্তু আপনার পদক্ষেপ যদি Unpredictable হয়, তবে সবাই আপনাকে ভয় পাবে ও সমীহ করবে।",
+                application: "মাঝে মাঝে এমন সিদ্ধান্ত নিন যা কেউ কল্পনাও করেনি। এতে প্রতিপক্ষ সবসময় দ্বিধাগ্রস্ত থাকবে এবং আপনার বিরুদ্ধে পরিকল্পনা করতে ভয় পাবে।",
+                caution: "অতিরিক্ত অস্থিরতা মানুষকে মানসিক ভারসাম্যহীন মনে করাতে পারে; তাই এই কৌশলটি কেবল বিশেষ সময়েই ব্যবহার করুন।"
+            },
+            {
+                id: 18,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "নিজেকে রক্ষা করতে দুর্গ বানাবেন না — বিচ্ছিন্নতা (Isolation) বিপজ্জনক",
+                titleEn: "Do Not Build Fortresses to Protect Yourself — Isolation Is Dangerous",
+                summary: "নিজেকে সবার থেকে আলাদা করে রাখলে আপনি নিরাপদ হবেন না, বরং তথ্য থেকে বঞ্চিত হবেন এবং সহজেই শত্রুর লক্ষ্যবস্তুতে পরিণত হবেন।",
+                principle: "ক্ষমতা টিকে থাকে মানুষের সাথে সংযোগ এবং তথ্যের প্রবাহের ওপর। আপনি যখন নিজেকে দুর্গের ভেতর বন্দি করেন, তখন বাইরের জগতে কী ঘটছে তা আর জানতে পারেন না।",
+                application: "সবার সাথে মিশুন, বিভিন্ন স্তরের মানুষের সাথে যোগাযোগ রাখুন এবং চারপাশের খবরাখবর নিজের নখদর্পণে রাখুন। ভিড়ের মাঝে মিশে থাকাই সবচেয়ে বড় নিরাপত্তা।",
+                caution: "গভীর চিন্তা বা সৃজনশীল কাজের জন্য সাময়িক নির্জনতা প্রয়োজন, তবে তা যেন স্থায়ী বিচ্ছিন্নতায় রূপ না নেয়।"
+            },
+            {
+                id: 19,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "আপনি কার সাথে লড়ছেন তা জানুন — ভুল মানুষকে আঘাত করবেন না",
+                titleEn: "Know Who You’re Dealing With — Do Not Offend the Wrong Person",
+                summary: "পৃথিবীতে সব মানুষ এক রকম নয়। কাউকে আঘাত বা প্রতারণা করার আগে তার মানসিকতা ও প্রতিশোধ নেওয়ার ক্ষমতা যাচাই করে নিন।",
+                principle: "কিছু মানুষ পরাজয় মেনে নেয়, কিন্তু কিছু মানুষ অপমানিত হলে সারাজীবন প্রতিশোধের আগুন পুষে রাখে। ভুল মানুষকে আঘাত করলে আপনাকে চরম মূল্য দিতে হতে পারে।",
+                application: "কারো সাথে লড়াইয়ে নামার আগে তার অতীত ইতিহাস, অহংবোধ এবং দুর্বল জায়গাগুলো ভালোভাবে যাচাই করুন। প্রতিশোধপরায়ণ ব্যক্তিদের এড়িয়ে চলুন।",
+                caution: "কখনোই মানুষের বাহ্যিক বিনয় বা নম্রতা দেখে তাকে দুর্বল ভেবে বসবেন না।"
+            },
+            {
+                id: 20,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "কারো প্রতি পুরোপুরি দায়বদ্ধ বা পক্ষপাতদুষ্ট হবেন না",
+                titleEn: "Do Not Commit to Anyone",
+                summary: "কোনো নির্দিষ্ট দল বা ব্যক্তির অন্ধ সমর্থক না হয়ে নিরপেক্ষ থাকুন। এতে দুই পক্ষই আপনাকে নিজের দলে টানার জন্য গুরুত্ব দেবে।",
+                principle: "আপনি যখনই কোনো একটি পক্ষ বেছে নেবেন, তখনই আপনার স্বাধীনতা শেষ হয়ে যাবে। কিন্তু আপনি যদি নিজেকে সবার ধরাছোঁয়ার বাইরে রাখেন, তবে সবাই আপনার সমর্থন পাওয়ার চেষ্টা করবে।",
+                application: "বিবাদমান দুই পক্ষের সাথেই সুসম্পর্ক বজায় রাখুন, কিন্তু কারো হয়ে যুদ্ধে নামবেন না। নিজের নিয়ন্ত্রণ ও স্বাধীনতা সবসময় নিজের হাতে রাখুন।",
+                caution: "নিরপেক্ষ থাকার অর্থ এই নয় যে আপনি সিদ্ধান্তহীনতায় ভুগছেন; সুযোগ বুঝে চূড়ান্ত বিজয়ীর পক্ষে অবস্থান নিন।"
+            },
+            {
+                id: 21,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "বোকা ধরতে বোকার ভান করুন — প্রতিপক্ষের চেয়ে কম বুদ্ধিমান দেখান",
+                titleEn: "Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
+                summary: "কেউই নিজেকে অন্যের চেয়ে কম বুদ্ধিমান ভাবতে চায় না। তাই প্রতিপক্ষকে তার চেয়ে বেশি বুদ্ধিমান অনুভব করান, যাতে সে নিশ্চিন্তে ভুল করে।",
+                principle: "মানুষ যখন মনে করে তারা আপনার চেয়ে বেশি চালাক, তখন তারা সতর্কতা হারিয়ে ফেলে। এই সুযোগে আপনি আড়াল থেকে আপনার আসল চাল চালতে পারবেন।",
+                application: "প্রতিপক্ষের সামনে নিজের বুদ্ধিমত্তা ও জ্ঞান লুকিয়ে রাখুন। তাদের কথায় মুগ্ধ হওয়ার ভান করুন, যাতে তারা আপনাকে কোনো হুমকি মনে না করে।",
+                caution: "নতুন কোনো জায়গায় নিজের যোগ্যতা প্রমাণের সময় শুরুতে বুদ্ধিমত্তা দেখানো জরুরি, নতুবা আপনাকে অযোগ্য ভেবে বাদ দেওয়া হতে পারে।"
+            },
+            {
+                id: 22,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "আত্মসমর্পণের কৌশল (Surrender Tactic) ব্যবহার করুন: দুর্বলতাকে শক্তিতে রূপান্তর করুন",
+                titleEn: "Use the Surrender Tactic: Transform Weakness into Power",
+                summary: "আপনি যখন দুর্বল অবস্থানে থাকবেন, তখন অযথা লড়াই করে ধ্বংস হওয়ার চেয়ে কৌশলে আত্মসমর্পণ করুন। এতে আপনি ঘুরে দাঁড়ানোর সময় পাবেন।",
+                principle: "আত্মসমর্পণ মানে পরাজয় নয়, বরং এটি প্রতিপক্ষকে শান্ত করার একটি কৌশল। আপনি নতি স্বীকার করলে প্রতিপক্ষ আক্রমণ বন্ধ করে দেবে এবং আপনি ভেতরে ভেতরে শক্তি সঞ্চয় করতে পারবেন।",
+                application: "শক্তিশালী প্রতিপক্ষের সামনে অহংকার না দেখিয়ে নম্রভাবে পরাজয় মেনে নিন। তাদের অহংকার তৃপ্ত হতে দিন এবং সঠিক সময়ের জন্য অপেক্ষা করুন।",
+                caution: "যদি আত্মসমর্পণের অর্থ হয় চিরতরে নিশ্চিহ্ন হয়ে যাওয়া, তবে শেষ রক্তবিন্দু দিয়ে লড়াই করাই শ্রেয়।"
+            },
+            {
+                id: 23,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "আপনার সব শক্তি এক জায়গায় কেন্দ্রীভূত করুন",
+                titleEn: "Concentrate Your Forces",
+                summary: "অনেক দিকে শক্তি ও মনোযোগ ছড়িয়ে না দিয়ে একটি মাত্র লক্ষ্য বা শক্তির উৎসে আপনার সব সামর্থ্য নিবদ্ধ করুন।",
+                principle: "অগভীর অনেকগুলো কূপ খনন করার চেয়ে একটি গভীর কূপ খনন করলে পানি পাওয়ার সম্ভাবনা বেশি থাকে। শক্তির কেন্দ্রীকরণই বড় সাফল্যের মূল চাবিকাঠি।",
+                application: "জীবনে বা কর্মক্ষেত্রে একসাথে অনেকগুলো লক্ষ্য না রেখে সবচেয়ে গুরুত্বপূর্ণ লক্ষ্যটি বেছে নিন এবং সেখানেই আপনার সব সময় ও মেধা বিনিয়োগ করুন।",
+                caution: "একজন মাত্র পৃষ্ঠপোষক বা প্রতিষ্ঠানের ওপর পুরোপুরি নির্ভরশীল হয়ে পড়লে তিনি পতনের মুখে পড়লে আপনিও বিপদে পড়বেন।"
+            },
+            {
+                id: 24,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "নিখুঁত দরবারির (Perfect Courtier) ভূমিকা পালন করুন",
+                titleEn: "Play the Perfect Courtier",
+                summary: "ক্ষমতার কেন্দ্রে টিকে থাকতে হলে সরাসরি বিরোধিতা না করে কৌশল, শালীনতা ও পরোক্ষ প্রভাবের মাধ্যমে নিজের অবস্থান পাকা করুন।",
+                principle: "যারা সরাসরি ক্ষমতার দম্ভ দেখায়, তারা দ্রুত শত্রু তৈরি করে। একজন নিখুঁত কৌশলী ব্যক্তি কখনোই অতিরিক্ত কথা বলেন না, তোষামোদ ও সমালোচনার মধ্যে ভারসাম্য রাখেন।",
+                application: "নিজের আবেগ নিয়ন্ত্রণ করুন, অন্যদের প্রশংসা করুন, কারো সম্পর্কে সরাসরি পরনিন্দা করবেন না এবং পরিস্থিতির সাথে নিজেকে মানিয়ে নিন।",
+                caution: "অতিরিক্ত তোষামোদ আপনাকে মেরুদণ্ডহীন হিসেবে তুলে ধরতে পারে; তাই আত্মসম্মান বজায় রেখে কৌশলী হোন।"
+            },
+            {
+                id: 25,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "নিজেকে নতুনভাবে গড়ে তুলুন (Re-Create Yourself)",
+                titleEn: "Re-Create Yourself",
+                summary: "সমাজ আপনার ওপর যে পরিচয় চাপিয়ে দিয়েছে তা মেনে নেবেন না। নিজের চরিত্র, আচরণ ও ইমেজ নিজেই তৈরি করুন এবং প্রয়োজনে পরিবর্তন করুন।",
+                principle: "আপনি যদি নিজের ভূমিকা নিজে তৈরি না করেন, তবে অন্যরা আপনাকে তাদের সুবিধা অনুযায়ী কোনো একটা ছাঁচে ফেলে দেবে। নিজের ইমেজের নিয়ন্ত্রণ নিজের হাতে রাখুন।",
+                application: "আত্মবিশ্বাস ও নাটকীয়তার সাথে নিজেকে উপস্থাপন করুন। অতীতের ব্যর্থতা বা পুরনো ইমেজ ঝেড়ে ফেলে নতুন রূপে আত্মপ্রকাশ করুন।",
+                caution: "অতিরিক্ত নাটকীয়তা যেন হাস্যকর বা কৃত্রিম মনে না হয়, সেদিকে সতর্ক দৃষ্টি রাখুন।"
+            },
+            {
+                id: 26,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "নিজের হাত সবসময় পরিষ্কার রাখুন",
+                titleEn: "Keep Your Hands Clean",
+                summary: "যেকোনো অনৈতিক বা অপ্রীতিকর কাজ সরাসরি নিজে না করে অন্যদের মাধ্যমে করান, যাতে কোনো দোষ বা কলঙ্ক আপনাকে স্পর্শ করতে না পারে।",
+                principle: "ক্ষমতাশালী ব্যক্তিদের সবসময় নিখুঁত ও পবিত্র ইমেজ ধরে রাখতে হয়। ভুল বা অপ্রীতিকর কাজের দায় অন্যের ঘাড়ে চাপানোর জন্য বলির পাঁঠা (Scapegoat) তৈরি রাখুন।",
+                application: "কঠিন বা অপ্রিয় সিদ্ধান্তগুলো অন্য কারো মুখ দিয়ে ঘোষণা করান। কোনো সংকট তৈরি হলে কৌশলে দায় অন্যের ওপর দিয়ে নিজের সুনাম রক্ষা করুন।",
+                caution: "এই কৌশলটি বারবার ব্যবহার করলে মানুষ আপনার আসল চেহারা বুঝে ফেলবে এবং কেউ আপনাকে বিশ্বাস করবে না।"
+            },
+            {
+                id: 27,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "মানুষের বিশ্বাস করার প্রবণতাকে কাজে লাগিয়ে অনুসারী তৈরি করুন",
+                titleEn: "Play on People’s Need to Believe to Create a Cultlike Following",
+                summary: "মানুষ সবসময় এমন কিছু খুঁজছে যার ওপর তারা অন্ধভাবে বিশ্বাস রাখতে পারে। তাদের সামনে একটি মহান লক্ষ্য ও আশার বাণী তুলে ধরুন।",
+                principle: "মানুষ যুক্তির চেয়ে আবেগ ও বিশ্বাসের প্রতি বেশি দুর্বল। আপনি যদি তাদের অনিশ্চিত জীবনে একটি নিশ্চিত পথ ও আশার আলো দেখাতে পারেন, তবে তারা আপনার অনুসারী হয়ে যাবে।",
+                application: "জটিল তত্ত্বের বদলে সহজ, আবেগঘন ও অনুপ্রেরণাদায়ক কথা বলুন। একটি অভিন্ন শত্রু বা মহান উদ্দেশ্য তৈরি করুন যা মানুষকে একত্রিত করবে।",
+                caution: "মানুষের আবেগ নিয়ে খেলার সময় সতর্ক থাকুন; তাদের প্রত্যাশা পূরণ করতে না পারলে জনরোষ আপনাকেই ধ্বংস করবে।"
+            },
+            {
+                id: 28,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "সাহসিকতার সাথে কাজে নামুন (Enter Action with Boldness)",
+                titleEn: "Enter Action with Boldness",
+                summary: "কোনো কাজ শুরু করার সময় দ্বিধা বা ভয় রাখবেন না। দ্বিধাগ্রস্ত মানুষ নিজেরাই নিজেদের ব্যর্থতা ডেকে আনে, আর সাহসিকতা মানুষকে মুগ্ধ করে।",
+                principle: "সাহস জন্মগত বিষয় নয়, এটি একটি কৌশল যা অনুশীলন করা যায়। আপনি যখন আত্মবিশ্বাস ও সাহসের সাথে পদক্ষেপ নেন, তখন অন্যরা আপনার সামনে পথ ছেড়ে দিতে বাধ্য হয়।",
+                application: "পরিকল্পনা করার সময় সতর্ক থাকুন, কিন্তু একবার সিদ্ধান্ত নিয়ে নিলে কোনো পিছুটান ছাড়াই পূর্ণ শক্তিতে ঝাঁপিয়ে পড়ুন।",
+                caution: "সাহসিকতা এবং হঠকারিতার মধ্যে পার্থক্য আছে; প্রস্তুতি ছাড়া অন্ধভাবে ঝাঁপ দিলে বিপদ অনিবার্য।"
+            },
+            {
+                id: 29,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "শেষ পর্যন্ত পুরো পরিকল্পনা সাজিয়ে রাখুন",
+                titleEn: "Plan All the Way to the End",
+                summary: "যেকোনো কাজের শুরু থেকে শেষ পর্যন্ত সম্ভাব্য সব বাধা, পরিণতি ও বিকল্প পথ আগে থেকেই ভেবে রাখুন, যাতে ভাগ্যের ওপর নির্ভর করতে না হয়।",
+                principle: "বেশিরভাগ মানুষ কেবল কাজের শুরুটা নিয়েই উত্তেজিত থাকে, কিন্তু শেষ পরিণতি নিয়ে ভাবে না। যারা শেষ পর্যন্ত পরিকল্পনা করে, তারাই যেকোনো পরিস্থিতিতে শান্ত ও নিয়ন্ত্রিত থাকে।",
+                application: "বড় কোনো পদক্ষেপ নেওয়ার আগে তিনটি বিকল্প পরিকল্পনা (Plan A, B, C) তৈরি রাখুন। সাফল্যের পর কী করবেন, সেটিও আগে থেকেই ঠিক করে রাখুন।",
+                caution: "অতিরিক্ত পরিকল্পনা করতে গিয়ে যেন কাজ শুরু করতেই দেরি না হয়ে যায়, সেদিকে খেয়াল রাখুন।"
+            },
+            {
+                id: 30,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "আপনার অর্জনগুলোকে অনায়াস ও সহজ মনে করান",
+                titleEn: "Make Your Accomplishments Seem Effortless",
+                summary: "কাজের পেছনের কঠোর পরিশ্রম ও ঘাম লুকিয়ে রাখুন। মানুষকে বুঝতে দিন আপনি অত্যন্ত সহজে ও স্বভাবজাত প্রতিভায় কাজটি করেছেন।",
+                principle: "আপনি যদি দেখান যে একটি কাজ করতে আপনার অনেক কষ্ট হয়েছে, তবে মানুষ আপনাকে সাধারণ পরিশ্রমী ভাববে। কিন্তু কাজটি সহজ মনে হলে তারা আপনাকে জিনিয়াস ভাববে।",
+                application: "নিজের কৌশল, অনুশীলন এবং পেছনের সংগ্রাম গোপন রাখুন। চূড়ান্ত ফলাফল এমনভাবে উপস্থাপন করুন যেন এটি আপনার জন্য কোনো ব্যাপারই ছিল না।",
+                caution: "কখনো কখনো মানুষের সহানুভূতি বা সমর্থন পাওয়ার জন্য পরিশ্রমের গল্প বলা কাজে আসতে পারে।"
+            },
+            {
+                id: 31,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "বিকল্পগুলো নিয়ন্ত্রণ করুন: অন্যদের আপনার দেওয়া কার্ড দিয়ে খেলতে দিন",
+                titleEn: "Control the Options: Get Others to Play with the Cards You Deal",
+                summary: "মানুষকে স্বাধীনতার অনুভূতি দিন, কিন্তু তাদের সামনে এমন কয়েকটি বিকল্প রাখুন যার যেকোনোটি বেছে নিলেই আপনার লাভ হবে।",
+                principle: "মানুষ চাপিয়ে দেওয়া সিদ্ধান্ত অপছন্দ করে; তারা ভাবতে ভালোবাসে যে তারা নিজেরাই সিদ্ধান্ত নিয়েছে। তাই তাদের সামনে সীমিত কিন্তু আপনার অনুকূল বিকল্প তুলে ধরুন।",
+                application: "কাউকে সরাসরি আদেশ না দিয়ে দুটি বা তিনটি বিকল্প দিন। এমনভাবে বিকল্পগুলো সাজান যেন প্রতিপক্ষ যা-ই বেছে নিক না কেন, চূড়ান্ত জয় আপনারই হয়।",
+                caution: "প্রতিপক্ষ যদি বুঝতে পারে যে আপনি তাদের বিকল্প সীমিত করে দিয়েছেন, তবে তারা বিদ্রোহ করতে পারে।"
+            },
+            {
+                id: 32,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "মানুষের কল্পনা ও ফ্যান্টাসিকে কাজে লাগান",
+                titleEn: "Play to People’s Fantasies",
+                summary: "কঠোর বাস্তবতা প্রায়ই তিক্ত ও অপ্রীতিকর হয়। তাই সরাসরি সত্য না বলে মানুষের স্বপ্ন ও কল্পনার সাথে মিল রেখে কথা বলুন।",
+                principle: "মানুষ কঠিন পরিশ্রম বা তিক্ত সত্য শুনতে চায় না; তারা চায় রাতারাতি সাফল্য, রোমাঞ্চ এবং সহজ সমাধানের স্বপ্ন। যে ব্যক্তি তাদের এই ফ্যান্টাসি পূরণের আশা দেখাতে পারে, সেই ক্ষমতা পায়।",
+                application: "মানুষের অপূর্ণ আকাঙ্ক্ষা ও স্বপ্নগুলো চিহ্নিত করুন। আপনার কথা ও কাজের মাধ্যমে তাদের সেই স্বপ্নের কাছাকাছি যাওয়ার অনুভূতি দিন।",
+                caution: "কখনোই এমন কোনো অবাস্তব প্রতিশ্রুতি দেবেন না যা আপনি কখনোই রক্ষা করতে পারবেন না।"
+            },
+            {
+                id: 33,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "প্রতিটি মানুষের দুর্বল জায়গা (Thumbscrew) খুঁজে বের করুন",
+                titleEn: "Discover Each Man’s Thumbscrew",
+                summary: "প্রত্যেক মানুষেরই কোনো না কোনো দুর্বলতা, ভয় বা গোপন আকাঙ্ক্ষা থাকে। সেটি খুঁজে বের করতে পারলে আপনি তাকে সহজেই নিয়ন্ত্রণ করতে পারবেন।",
+                principle: "বাইরে থেকে যতই শক্তিশালী মনে হোক না কেন, প্রতিটি মানুষের ভেতরে একটি সংবেদনশীল জায়গা থাকে—তা হতে পারে নিরাপত্তাহীনতা, লোভ বা প্রশংসার তৃষ্ণা।",
+                application: "মানুষের কথাবার্তা, অঙ্গভঙ্গি এবং ছোটখাটো প্রতিক্রিয়া গভীরভাবে পর্যবেক্ষণ করুন। তাদের দুর্বল জায়গাটি চিনে নিয়ে প্রয়োজনে তা ব্যবহার করুন।",
+                caution: "কারো দুর্বলতা নিয়ে খেলার সময় সীমা অতিক্রম করবেন না; কোণঠাসা মানুষ ভয়ংকর হয়ে উঠতে পারে।"
+            },
+            {
+                id: 34,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "নিজের মতো করে রাজকীয় হোন: রাজার মতো আচরণ করুন, রাজার মতো সম্মান পাবেন",
+                titleEn: "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
+                summary: "আপনি নিজেকে যেভাবে উপস্থাপন করবেন, পৃথিবী আপনাকে ঠিক সেভাবেই মূল্যায়ন করবে। আত্মমর্যাদা ও রাজকীয় ব্যক্তিত্ব বজায় রাখুন।",
+                principle: "আপনি যদি নিজেকে সস্তা ও সাধারণ মনে করেন, তবে অন্যরাও আপনাকে অবহেলা করবে। কিন্তু আপনি যদি আত্মবিশ্বাস ও মর্যাদার সাথে চলেন, তবে মানুষ আপনাকে নেতা হিসেবে মেনে নেবে।",
+                application: "নিজের মানদণ্ড উঁচু রাখুন। ছোটখাটো বিষয়ে ঝগড়া করবেন না, সবার সামনে আত্মসম্মান বজায় রাখুন এবং বড় লক্ষ্য নিয়ে কথা বলুন।",
+                caution: "রাজকীয় আচরণের অর্থ অহংকার বা অসৌজন্যমূলক ব্যবহার নয়; প্রকৃত রাজকীয়তায় আভিজাত্য ও উদারতা থাকে।"
+            },
+            {
+                id: 35,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "সময়ের সঠিক ব্যবহার (Timing) আয়ত্ত করুন",
+                titleEn: "Master the Art of Timing",
+                summary: "কখনোই তাড়াহুড়ো করবেন না; তাড়াহুড়ো দুর্বলতার লক্ষণ। ধৈর্য ধরুন এবং সঠিক মুহূর্ত আসার সাথে সাথেই চূড়ান্ত আঘাত হানুন।",
+                principle: "ক্ষমতার খেলায় 'কী করছেন' তার চেয়েও গুরুত্বপূর্ণ হলো 'কখন করছেন'। ভুল সময়ে নেওয়া সঠিক সিদ্ধান্তও ব্যর্থ হতে পারে, আবার সঠিক সময়ের পদক্ষেপ অসাধ্য সাধন করে।",
+                application: "পরিস্থিতি অনুকূলে না আসা পর্যন্ত ধৈর্য ধরে অপেক্ষা করুন। যখন দেখবেন প্রতিপক্ষ অসতর্ক বা দুর্বল হয়ে পড়েছে, ঠিক তখনই পদক্ষেপ নিন।",
+                caution: "সঠিক সময়ের অপেক্ষা করতে গিয়ে যেন অলসতায় ভুগে সুযোগ হাতছাড়া না করেন, সেদিকে সতর্ক থাকুন।"
+            },
+            {
+                id: 36,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "যা আপনি পেতে পারবেন না, তা অবজ্ঞা করুন: উপেক্ষাই সেরা প্রতিশোধ",
+                titleEn: "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
+                summary: "কোনো ছোটখাটো সমস্যা বা অপমানকে গুরুত্ব দিলে আপনি নিজেই সেটিকে বড় করে তুলবেন। যা আপনার নিয়ন্ত্রণে নেই, তা পুরোপুরি উপেক্ষা করুন।",
+                principle: "আপনি যখন কোনো শত্রু বা সমালোচকের কথার জবাব দেন, তখন আপনি তাকে নিজের সমকক্ষ বলে স্বীকৃতি দেন। কিন্তু আপনি যদি তাকে পুরোপুরি উপেক্ষা করেন, তবে সে গুরুত্বহীন হয়ে পড়ে।",
+                application: "ক্ষুদ্র সমালোচনা, ঈর্ষান্বিত মানুষ বা হাতের নাগালের বাইরের কোনো বিষয় নিয়ে মাথা ঘামাবেন না। আপনার নির্লিপ্ততাই তাদের সবচেয়ে বড় শাস্তি।",
+                caution: "ছোট কোনো বিপদ যদি ধীরে ধীরে বড় হুমকিতে পরিণত হওয়ার সম্ভাবনা থাকে, তবে তা উপেক্ষা না করে শুরুতেই দমন করুন।"
+            },
+            {
+                id: 37,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "আকর্ষণীয় ও চমকপ্রদ দৃশ্যকল্প তৈরি করুন",
+                titleEn: "Create Compelling Spectacles",
+                summary: "মানুষ যুক্তির চেয়ে চোখে দেখা দৃশ্য ও প্রতীকে বেশি প্রভাবিত হয়। নিজের চারপাশে এমন চমক ও জাঁকজমক তৈরি করুন যা সবাইকে মুগ্ধ করে।",
+                principle: "কথা ও যুক্তি নিয়ে মানুষ বিতর্ক করতে পারে, কিন্তু একটি শক্তিশালী ভিজ্যুয়াল ইমেজ বা প্রতীক সরাসরি মানুষের অবচেতন মনে প্রভাব ফেলে।",
+                application: "আপনার উপস্থাপনা, ব্র্যান্ডিং বা যেকোনো আয়োজনে দৃষ্টিনন্দন ও প্রতীকী উপাদান রাখুন, যাতে মানুষ আপনার কাজকে স্মরণীয় করে রাখে।",
+                caution: "শুধু বাহ্যিক চাকচিক্য যেন আপনার মূল কাজের গুণগত মানকে ঢেকে না দেয়।"
+            },
+            {
+                id: 38,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "নিজের মতো করে চিন্তা করুন, কিন্তু আচরণ করুন সবার মতো",
+                titleEn: "Think as You Like but Behave Like Others",
+                summary: "সমাজের প্রচলিত রীতিনীতির বিরুদ্ধে প্রকাশ্যে বিদ্রোহ করলে মানুষ আপনাকে শত্রু ভাববে। বাইরে সবার সাথে মিশে থাকুন, কিন্তু ভেতরে নিজের স্বাধীনতা বজায় রাখুন।",
+                principle: "মানুষ তাদের চেয়ে ভিন্ন বা অপ্রচলিত চিন্তাভাবনার মানুষকে সহজে মেনে নিতে পারে না। আপনি যদি নিজের ব্যতিক্রমী মতবাদ জাহির করেন, তবে অযথাই শত্রু বাড়াবেন।",
+                application: "সাধারণ মানুষের সাথে তাদের মতো করেই মিশুন ও কথা বলুন। আপনার গভীর ও ব্যতিক্রমী চিন্তাগুলো কেবল বিশ্বস্ত ও সমমনা মানুষদের সাথেই শেয়ার করুন।",
+                caution: "একবার আপনি ক্ষমতা ও প্রতিষ্ঠার শীর্ষে পৌঁছে গেলে, তখন নিজের স্বতন্ত্র মতবাদ প্রকাশ করতে পারেন।"
+            },
+            {
+                id: 39,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "মাছ ধরতে পানি ঘোলা করুন",
+                titleEn: "Stir Up Waters to Catch Fish",
+                summary: "রাগ ও আবেগ মানুষকে অন্ধ করে দেয়। আপনি নিজে শান্ত থাকুন, কিন্তু প্রতিপক্ষকে রাগিয়ে বা উত্তেজিত করে ভুল করতে বাধ্য করুন।",
+                principle: "যখন মানুষ রেগে যায় বা আতঙ্কিত হয়, তখন তারা যৌক্তিক চিন্তা করার ক্ষমতা হারিয়ে ফেলে। আপনি যদি পরিস্থিতি অস্থির করে নিজে স্থির থাকতে পারেন, তবে নিয়ন্ত্রণ আপনার হাতেই থাকবে।",
+                application: "প্রতিপক্ষের অহংবোধে খোঁচা দিয়ে বা অপ্রত্যাশিত আচরণ করে তাদের মেজাজ বিগড়ে দিন। তারা উত্তেজিত হয়ে ভুল চাল দিলে আপনি সুযোগ নিন।",
+                caution: "আগুন নিয়ে খেলার মতোই এই কৌশলটি ঝুঁকিপূর্ণ; প্রতিপক্ষের রাগ যেন আপনার নিজের নিয়ন্ত্রণের বাইরে চলে না যায়।"
+            },
+            {
+                id: 40,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "ফ্রি লাঞ্চ বা বিনামূল্যের প্রস্তাব ঘৃণা করুন",
+                titleEn: "Despise the Free Lunch",
+                summary: "পৃথিবীতে কোনো কিছুই সত্যিকার অর্থে বিনামূল্যে পাওয়া যায় না। ফ্রি জিনিসের পেছনে সবসময় কোনো না কোনো গোপন শর্ত বা দায়বদ্ধতা লুকিয়ে থাকে।",
+                principle: "যা বিনামূল্যে দেওয়া হয়, তাতে প্রায়ই প্রতারণা বা মানসিক ঋণের ফাঁদ থাকে। নিজের পুরো মূল্য পরিশোধ করলে আপনি কারো কাছে দায়বদ্ধ থাকেন না এবং স্বাধীন থাকতে পারেন।",
+                application: "অন্যের অনুগ্রহ বা ফ্রি উপহার নেওয়ার আগে এর পেছনের উদ্দেশ্য যাচাই করুন। নিজের অর্থ ও পরিশ্রমে অর্জিত জিনিসের ওপর নির্ভর করুন।",
+                caution: "নিজে উদার হয়ে অন্যকে উপহার দিন, কারণ এর মাধ্যমে আপনি তাদের ওপর মানসিক প্রভাব বিস্তার করতে পারবেন।"
+            },
+            {
+                id: 41,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "কোনো মহান ব্যক্তির জুতোয় পা গলানো এড়িয়ে চলুন",
+                titleEn: "Avoid Stepping into a Great Man’s Shoes",
+                summary: "কোনো সফল বা কিংবদন্তি ব্যক্তির স্থলাভিষিক্ত হলে মানুষ সবসময় আপনাকে তার সাথে তুলনা করবে। তাই পুরনো পথে না হেঁটে নিজের নতুন পরিচয় গড়ুন।",
+                principle: "পূর্বসূরির সাফল্য যত বড় হবে, আপনার কাজের মূল্যায়ন তত কঠিন হবে। আপনি তার মতো কাজ করলে মানুষ বলবে আপনি তাকে নকল করছেন।",
+                application: "নতুন দায়িত্ব নিলে পুরনো নিয়ম ও ধারা বদলে ফেলুন। নিজের আলাদা ভিশন ও কৌশল প্রতিষ্ঠা করুন, যাতে মানুষ আপনাকে আপনার নামেই চেনে।",
+                caution: "পূর্বসূরি যদি অজনপ্রিয় বা ব্যর্থ হন, তবে তার বিপরীত কাজ করাই আপনার জন্য সহজ ও লাভজনক হবে।"
+            },
+            {
+                id: 42,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "রাখালকে আঘাত করুন, ভেড়ার পাল এমনিতেই ছত্রভঙ্গ হয়ে যাবে",
+                titleEn: "Strike the Shepherd and the Sheep Will Scatter",
+                summary: "যেকোনো সমস্যা বা বিদ্রোহের মূলে থাকে একজন মূল উসকানিদাতা। পুরো দলের সাথে লড়াই না করে সেই মূল নেতাকে চিহ্নিত করে সরিয়ে দিন।",
+                principle: "কোনো গোষ্ঠী বা প্রতিষ্ঠানে বিশৃঙ্খলা সৃষ্টি হলে তার পেছনে এক বা দুজন প্রভাবশালী ব্যক্তি থাকে। তাদের নিষ্ক্রিয় করতে পারলে বাকি অনুসারীরা এমনিতেই দুর্বল হয়ে পড়বে।",
+                application: "সমস্যার মূল হোতাকে চিহ্নিত করুন এবং তার সাথে আপস না করে তাকে বিচ্ছিন্ন বা অপসারণ করার ব্যবস্থা নিন।",
+                caution: "মূল নেতাকে সরিয়ে দেওয়ার পর যেন তিনি শহীদ (Martyr) হয়ে আরও বেশি সহানুভূতি না পান, সেদিকে খেয়াল রাখুন।"
+            },
+            {
+                id: 43,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "মানুষের হৃদয় ও মনের ওপর কাজ করুন",
+                titleEn: "Work on the Hearts and Minds of Others",
+                summary: "জোর করে বা ভয় দেখিয়ে কাউকে বশ করলে তারা সুযোগ পেলেই বিদ্রোহ করবে। তাই মানুষের আবেগ ও মন জয় করুন, যাতে তারা স্বেচ্ছায় আপনাকে অনুসরণ করে।",
+                principle: "বলপ্রয়োগ সাময়িক ফল দেয়, কিন্তু মনস্তাত্ত্বিক প্রভাব স্থায়ী হয়। আপনি যখন মানুষের আবেগ ও দুর্বলতা বুঝে তাদের আপন করে নেন, তখন তারা আপনার অনুগত সৈনিক হয়ে যায়।",
+                application: "মানুষের মনস্তত্ত্ব বুঝুন, তাদের প্রশংসা করুন এবং তাদের বিশ্বাস করান যে আপনি তাদেরই একজন।",
+                caution: "মানুষের মন জয় করার জন্য ধৈর্য ও সূক্ষ্ম বুদ্ধির প্রয়োজন; তাড়াহুড়ো করলে কৃত্রিমতা ধরা পড়ে যাবে।"
+            },
+            {
+                id: 44,
+                category: "psychology",
+                catLabel: "মনস্তত্ত্ব (Psychology)",
+                titleBn: "আয়না প্রভাব (Mirror Effect) দিয়ে প্রতিপক্ষকে নিরস্ত্র ও বিভ্রান্ত করুন",
+                titleEn: "Disarm and Infuriate with the Mirror Effect",
+                summary: "আয়না যেমন বাস্তবতাকে প্রতিফলিত করে, তেমনি প্রতিপক্ষ যা করছে হুবহু তা-ই অনুকরণ করুন। এতে তারা নিজেদের কৌশল বুঝতে না পেরে বিভ্রান্ত হয়ে পড়বে।",
+                principle: "আপনি যখন প্রতিপক্ষের আচরণ ও কৌশলের হুবহু প্রতিফলন ঘটান, তখন তারা নিজেদের চাল সম্পর্কে অনিশ্চিত হয়ে পড়ে এবং মানসিকভাবে দুর্বল হয়ে যায়।",
+                application: "প্রতিপক্ষ যেভাবে কথা বলছে বা পদক্ষেপ নিচ্ছে, আপনিও ঠিক একইভাবে প্রতিক্রিয়া দেখান। এতে তারা অপমানিত ও দিশেহারা বোধ করবে।",
+                caution: "শক্তিশালী বা বস পর্যায়ের কারো আচরণ অনুকরণ করলে তারা এটিকে উপহাস ভেবে ক্ষিপ্ত হতে পারে।"
+            },
+            {
+                id: 45,
+                category: "leadership",
+                catLabel: "নেতৃত্ব (Leadership)",
+                titleBn: "পরিবর্তনের কথা বলুন, কিন্তু একসাথে খুব বেশি পরিবর্তন করবেন না",
+                titleEn: "Preach the Need for Change, but Never Reform Too Much at Once",
+                summary: "মানুষ পরিবর্তনের কথা শুনতে ভালোবাসে, কিন্তু হঠাৎ করে পুরনো অভ্যাস বদলাতে ভয় পায়। তাই পরিবর্তন আনুন ধীরে ধীরে, পুরনো ঐতিহ্যের মোড়কে।",
+                principle: "আকস্মিক ও বড় কোনো সংস্কার মানুষের মনে আতঙ্ক ও বিদ্রোহের জন্ম দেয়। তাই নতুন নিয়ম চালু করার সময় সেটিকে পুরনো কোনো ঐতিহ্যের ধারাবাহিকতা হিসেবে উপস্থাপন করুন।",
+                application: "প্রথমে পরিবর্তনের প্রয়োজনীয়তা নিয়ে কথা বলুন, এরপর ছোট ছোট পদক্ষেপে সংস্কার করুন যাতে মানুষ সহজেই মানিয়ে নিতে পারে।",
+                caution: "কোনো প্রতিষ্ঠান বা ব্যবস্থা পুরোপুরি ভেঙে পড়লে তখন আমূল পরিবর্তন ছাড়া আর কোনো উপায় থাকে না।"
+            },
+            {
+                id: 46,
+                category: "defense",
+                catLabel: "আত্মরক্ষা (Self-Defense)",
+                titleBn: "কখনোই নিজেকে অতিরিক্ত নিখুঁত (Too Perfect) দেখাবেন না",
+                titleEn: "Never Appear Too Perfect",
+                summary: "অন্যদের চেয়ে নিজেকে সবসময় শ্রেষ্ঠ ও নিখুঁত দেখালে মানুষ আপনাকে শ্রদ্ধা করার বদলে গোপনে ঈর্ষা করবে। মাঝে মাঝে ছোটখাটো দুর্বলতা প্রকাশ করুন।",
+                principle: "ঈর্ষা একটি নীরব বিষ যা আপনার চারপাশে গোপন শত্রু তৈরি করে। আপনি যদি নিজের কিছু সাধারণ দুর্বলতা বা ছোট ভুল স্বীকার করেন, তবে মানুষ আপনাকে নিজেদের মতোই মানুষ ভাববে।",
+                application: "মাঝে মাঝে নিজের ছোটখাটো ত্রুটি নিয়ে হাসাহাসি করুন এবং আপনার সাফল্যের পেছনে ভাগ্য বা অন্যদের অবদানের কথা স্বীকার করুন।",
+                caution: "এমন কোনো বড় দুর্বলতা প্রকাশ করবেন না যা আপনার মূল যোগ্যতা বা নেতৃত্বের ওপর প্রশ্ন তোলে।"
+            },
+            {
+                id: 47,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "যে লক্ষ্যে নেমেছিলেন তা অতিক্রম করবেন না; বিজয়ে থামতে শিখুন",
+                titleEn: "Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
+                summary: "বিজয়ের মুহূর্তটিই সবচেয়ে বিপজ্জনক। অতি আত্মবিশ্বাসে আপনি যদি লক্ষ্য ছাড়িয়ে আরও এগোতে চান, তবে অর্জিত জয়ও হারিয়ে ফেলবেন।",
+                principle: "সাফল্যের নেশায় মানুষ প্রায়ই বাস্তবতা ভুলে যায় এবং অতিরিক্ত লোভ করতে গিয়ে নতুন শত্রু তৈরি করে। প্রকৃত কৌশলী ব্যক্তি জানেন ঠিক কোন বিন্দুতে থামতে হয়।",
+                application: "আগে থেকে নির্ধারিত লক্ষ্য অর্জিত হওয়ার সাথে সাথেই আক্রমণ বা অভিযান থামিয়ে দিন এবং অর্জিত অবস্থানকে সুসংহত করুন।",
+                caution: "থেমে যাওয়ার অর্থ অলস হয়ে বসে থাকা নয়, বরং পরবর্তী পদক্ষেপের আগে নিজেকে স্থিতিশীল করা।"
+            },
+            {
+                id: 48,
+                category: "strategy",
+                catLabel: "কৌশল (Strategy)",
+                titleBn: "নিরাকার (Formlessness) রূপ ধারণ করুন",
+                titleEn: "Assume Formlessness",
+                summary: "নির্দিষ্ট কোনো রূপ বা স্থায়ী পরিকল্পনা থাকলে প্রতিপক্ষ তা সহজেই আক্রমণ করতে পারে। পানির মতো তরল ও পরিবর্তনশীল হোন, যাতে কেউ আপনাকে ধরতে না পারে।",
+                principle: "পৃথিবীতে কোনো কিছুই স্থায়ী নয়। আপনি যখন কোনো নির্দিষ্ট নীতি বা কাঠামোর মধ্যে নিজেকে বন্দি করেন, তখন আপনি ভঙ্গুর হয়ে পড়েন। যে নিজেকে সময়ের সাথে বদলাতে পারে, সে-ই অপরাজেয়।",
+                application: "পুরনো সাফল্যের সূত্র আঁকড়ে ধরে থাকবেন না। প্রতিটি নতুন পরিস্থিতিতে নতুন কৌশল গ্রহণ করুন এবং প্রতিপক্ষের সামনে নিজেকে সর্বদা পরিবর্তনশীল রাখুন।",
+                caution: "নিরাকার হওয়ার অর্থ এই নয় যে আপনার কোনো লক্ষ্য নেই; আপনার লক্ষ্য স্থির থাকবে, কেবল পথ ও কৌশল সময়ের সাথে বদলাবে।"
+            }
+        ];
+
+        // State Variables
+        let currentCategory = 'all';
+        let currentSearch = '';
+        let currentView = 'grid';
+        let activeLawId = null;
+
+        // DOM Elements
+        const lawsContainer = document.getElementById('lawsContainer');
+        const searchInput = document.getElementById('searchInput');
+        const clearSearchBtn = document.getElementById('clearSearchBtn');
+        const resultCount = document.getElementById('resultCount');
+        const emptyState = document.getElementById('emptyState');
+        const lawModal = document.getElementById('lawModal');
+
+        // Helper: Convert English digits to Bangla digits
+        function toBanglaNumber(num) {
+            const banglaDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+            return num.toString().split('').map(d => banglaDigits[d] || d).join('');
+        }
+
+        // Format Law Number (e.g., LAW 01)
+        function formatLawCode(id) {
+            return `LAW ${id < 10 ? '0' + id : id}`;
+        }
+
+        // Filter Laws
+        function getFilteredLaws() {
+            return lawsData.filter(law => {
+                const matchesCat = currentCategory === 'all' || law.category === currentCategory;
+                const query = currentSearch.trim().toLowerCase();
+                if (!query) return matchesCat;
+
+                const lawNumStr = `law ${law.id} law 0${law.id} ${law.id} ${toBanglaNumber(law.id)}`;
+                const searchableText = `${lawNumStr} ${law.titleBn} ${law.titleEn} ${law.summary} ${law.catLabel}`.toLowerCase();
+                return matchesCat && searchableText.includes(query);
+            });
+        }
+
+        // Render Cards
+        function renderLaws() {
+            const filtered = getFilteredLaws();
+            
+            // Update counter
+            resultCount.innerHTML = `দেখানো হচ্ছে: <span class="text-cream font-semibold">${toBanglaNumber(filtered.length)}</span> টি সূত্র`;
+
+            // Toggle empty state
+            if (filtered.length === 0) {
+                lawsContainer.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            } else {
+                emptyState.classList.add('hidden');
+            }
+
+            // Set grid vs list layout classes
+            if (currentView === 'grid') {
+                lawsContainer.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5';
+            } else {
+                lawsContainer.className = 'flex flex-col gap-3.5 max-w-4xl mx-auto';
+            }
+
+            lawsContainer.innerHTML = filtered.map(law => {
+                const lawCode = formatLawCode(law.id);
+                if (currentView === 'grid') {
+                    return `
+                        <article onclick="openModal(${law.id})" class="law-card cursor-pointer bg-charcoal border border-borderDark rounded-xl p-6 flex flex-col justify-between group relative overflow-hidden">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="font-serifDisplay text-xs font-bold tracking-widest text-crimsonBright bg-crimson/10 border border-crimson/25 px-2.5 py-1 rounded">
+                                        ${lawCode}
+                                    </span>
+                                    <span class="text-[11px] text-muted group-hover:text-gold transition">
+                                        ${law.catLabel}
+                                    </span>
+                                </div>
+                                <h2 class="text-lg sm:text-xl font-bold text-cream group-hover:text-white leading-snug mb-1.5 transition">
+                                    ${law.titleBn}
+                                </h2>
+                                <p class="font-serifDisplay text-xs text-gold/80 tracking-wide mb-3">
+                                    ${law.titleEn}
+                                </p>
+                                <p class="text-sm text-muted leading-relaxed line-clamp-3">
+                                    ${law.summary}
+                                </p>
+                            </div>
+                            <div class="mt-5 pt-3.5 border-t border-borderDark/70 flex items-center justify-between text-xs font-medium text-muted group-hover:text-cream transition">
+                                <span>বিস্তারিত পড়ুন</span>
+                                <span class="text-crimsonBright group-hover:translate-x-1 transition-transform">→</span>
+                            </div>
+                        </article>
+                    `;
+                } else {
+                    return `
+                        <article onclick="openModal(${law.id})" class="law-card cursor-pointer bg-charcoal border border-borderDark rounded-xl p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 group">
+                            <div class="space-y-1.5 flex-1">
+                                <div class="flex items-center gap-3">
+                                    <span class="font-serifDisplay text-xs font-bold tracking-widest text-crimsonBright">
+                                        ${lawCode}
+                                    </span>
+                                    <span class="text-xs text-muted">•</span>
+                                    <span class="text-xs text-gold/90 font-serifDisplay">${law.titleEn}</span>
+                                </div>
+                                <h2 class="text-lg font-bold text-cream group-hover:text-white leading-snug">
+                                    ${law.titleBn}
+                                </h2>
+                                <p class="text-sm text-muted line-clamp-2">
+                                    ${law.summary}
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-between sm:justify-end gap-3 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-borderDark">
+                                <span class="text-xs px-2.5 py-1 rounded bg-surface border border-borderDark text-muted">
+                                    ${law.catLabel.split(' ')[0]}
+                                </span>
+                                <span class="w-8 h-8 rounded-lg bg-surface group-hover:bg-crimson text-cream flex items-center justify-center transition">
+                                    →
+                                </span>
+                            </div>
+                        </article>
+                    `;
+                }
+            }).join('');
+        }
+
+        // Category Filter Handler
+        function setCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.filter-pill').forEach(btn => {
+                if (btn.dataset.cat === cat) {
+                    btn.className = 'filter-pill active whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-crimson text-white border border-crimson transition';
+                } else {
+                    btn.className = 'filter-pill whitespace-nowrap px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-charcoal text-muted hover:text-cream border border-borderDark transition';
+                }
+            });
+            renderLaws();
+        }
+
+        // View Mode Toggle Handler
+        function setViewMode(mode) {
+            currentView = mode;
+            const gridBtn = document.getElementById('gridViewBtn');
+            const listBtn = document.getElementById('listViewBtn');
+
+            if (mode === 'grid') {
+                gridBtn.className = 'px-2.5 py-1.5 rounded text-xs font-medium bg-crimson text-white transition flex items-center gap-1.5';
+                listBtn.className = 'px-2.5 py-1.5 rounded text-xs font-medium text-muted hover:text-cream transition flex items-center gap-1.5';
+            } else {
+                listBtn.className = 'px-2.5 py-1.5 rounded text-xs font-medium bg-crimson text-white transition flex items-center gap-1.5';
+                gridBtn.className = 'px-2.5 py-1.5 rounded text-xs font-medium text-muted hover:text-cream transition flex items-center gap-1.5';
+            }
+            renderLaws();
+        }
+
+        // Search Input Handler
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value;
+            clearSearchBtn.classList.toggle('hidden', currentSearch.length === 0);
+            renderLaws();
+        });
+
+        function clearSearch() {
+            searchInput.value = '';
+            currentSearch = '';
+            clearSearchBtn.classList.add('hidden');
+            renderLaws();
+        }
+
+        function resetAllFilters() {
+            clearSearch();
+            setCategory('all');
+        }
+
+        // Modal Logic
+        function openModal(id) {
+            const law = lawsData.find(item => item.id === id);
+            if (!law) return;
+
+            activeLawId = id;
+            document.getElementById('modalLawBadge').textContent = formatLawCode(law.id);
+            document.getElementById('modalCategoryBadge').textContent = law.catLabel;
+            document.getElementById('modalTitleBn').textContent = law.titleBn;
+            document.getElementById('modalTitleEn').textContent = law.titleEn;
+            document.getElementById('modalPrinciple').textContent = law.principle;
+            document.getElementById('modalApplication').textContent = law.application;
+            document.getElementById('modalCaution').textContent = law.caution;
+            document.getElementById('modalProgressText').textContent = `${law.id} / 48`;
+
+            document.getElementById('prevLawBtn').disabled = law.id === 1;
+            document.getElementById('nextLawBtn').disabled = law.id === 48;
+
+            lawModal.classList.remove('hidden');
+            lawModal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            lawModal.classList.add('hidden');
+            lawModal.classList.remove('flex');
+            document.body.style.overflow = '';
+            activeLawId = null;
+        }
+
+        function closeModalOnBackdrop(e) {
+            if (e.target === lawModal) {
+                closeModal();
+            }
+        }
+
+        function navigateModal(step) {
+            if (!activeLawId) return;
+            const targetId = activeLawId + step;
+            if (targetId >= 1 && targetId <= 48) {
+                openModal(targetId);
+            }
+        }
+
+        function openRandomLaw() {
+            const randomId = Math.floor(Math.random() * 48) + 1;
+            openModal(randomId);
+        }
+
+        // Keyboard Navigation (Escape, Left/Right Arrows in Modal)
+        document.addEventListener('keydown', (e) => {
+            if (!activeLawId) return;
+            if (e.key === 'Escape') closeModal();
+            if (e.key === 'ArrowLeft') navigateModal(-1);
+            if (e.key === 'ArrowRight') navigateModal(1);
+        });
+
+        // Initial Render
+        window.addEventListener('DOMContentLoaded', () => {
+            renderLaws();
+        });
+    </script>
+</body>
+</html>
